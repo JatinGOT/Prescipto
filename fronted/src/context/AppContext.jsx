@@ -6,7 +6,8 @@ export const AppContext = createContext()
 
 const AppContextProvider = (props)=>{
     const currentSymbol = '$'
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    // const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://prescipto-backend.onrender.com"
     const [doctors,setDoctors] = useState([])
     const [token,setToken] = useState(localStorage.getItem('token')?localStorage.getItem('token'):false)
 
