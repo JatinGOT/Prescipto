@@ -12,7 +12,7 @@ import appointments_icon from './appointments_icon.svg'
 import earning_icon from './earning_icon.svg'
 import patients_icon from './patients_icon.svg'
 
-const backendUrl = "https://prescipto-backend.onrender.com".
+const backendUrl = "https://prescipto-backend.onrender.com"
 
 export const assets = {
     add_icon,
